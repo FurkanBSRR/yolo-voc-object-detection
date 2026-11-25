@@ -1,0 +1,5 @@
+# YOLO11n Pascal VOC — Gradio uygulaması bağımlılıkları
+# Eğitimde kullanılan Ultralytics sürümüyle aynı (best.pt uyumluluğu için)
+ultralytics==8.4.218
+gradio==6.32.0
+# Ultralytics ile birlikte otomatik kurulanlar (torch, torchvision, numpy, pillow, opencv-python)

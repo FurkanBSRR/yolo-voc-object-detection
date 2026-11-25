@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Gradio / Ultralytics geçici dosyaları
+.gradio/
+flagged/
+runs/
+datasets/
+
+# Arşivler
+*.zip
+
+# Editör / işletim sistemi
+.vscode/
+.DS_Store
+Thumbs.db

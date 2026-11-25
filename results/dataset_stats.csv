@@ -1,0 +1,23 @@
+,train,val,test
+aeroplane,1041,130,285
+bicycle,960,104,337
+bird,1433,172,459
+boat,1033,107,263
+bottle,1578,186,469
+bus,732,90,213
+car,2921,346,1201
+cat,1437,156,358
+chair,2876,276,756
+cow,763,84,244
+diningtable,737,87,206
+dog,1816,209,489
+horse,979,93,348
+motorbike,944,108,325
+person,11961,1295,4528
+pottedplant,1365,122,480
+sheep,947,123,242
+sofa,726,88,239
+train,831,94,282
+tvmonitor,1000,108,308
+TOPLAM nesne,36080,3978,12032
+TOPLAM görüntü,14896,1655,4952

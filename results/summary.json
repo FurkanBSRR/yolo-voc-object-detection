@@ -1,0 +1,52 @@
+{
+  "model": "YOLO11n (COCO pretrained → Pascal VOC fine-tune)",
+  "ultralytics_version": "8.4.218",
+  "torch_version": "2.14.1+cu130",
+  "gpu": "NVIDIA L4",
+  "dataset_split_images": {
+    "train": 14896,
+    "val": 1655,
+    "test": 4952
+  },
+  "hyperparameters": {
+    "epochs": 40,
+    "imgsz": 640,
+    "batch": 32,
+    "optimizer": "SGD",
+    "lr0": 0.002,
+    "lrf": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3,
+    "patience": 0,
+    "box": 7.5,
+    "cls": 0.5,
+    "dfl": 1.5,
+    "mosaic": 1.0,
+    "close_mosaic": 5,
+    "fliplr": 0.5,
+    "amp": true,
+    "seed": 42,
+    "deterministic": true,
+    "workers": 8,
+    "cache": false
+  },
+  "epochs_completed": 40,
+  "best_epoch_val": 33,
+  "total_train_time_min": 47.0,
+  "test": {
+    "mAP50": 0.8507,
+    "mAP50-95": 0.6501,
+    "precision": 0.8129,
+    "recall": 0.7813,
+    "f1": 0.7968,
+    "mean_iou_tp@conf0.25": 0.8674,
+    "mean_best_iou_per_gt@conf0.25": 0.7645
+  },
+  "inference_ms_single_image": {
+    "gpu_end_to_end": 14.15,
+    "gpu_model_only": 9.42,
+    "cpu_end_to_end": 39.35,
+    "cpu_model_only": 34.89
+  }
+}
